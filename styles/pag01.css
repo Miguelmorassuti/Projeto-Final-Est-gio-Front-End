@@ -1,32 +1,108 @@
-body{
-    height: 100vh;
-    width: 100vw;
+:root {
+  --bg-orange: #FA9C1F;
+
 }
 
 
-section{
-    width: 45%;
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.login-bg{
+    width: 40%;
     height: 100vh;
 }
 
 .container2{
     width: 400px;
-    height: 80%;
+    height: 85%;
 }
 
 .paralelogramo{
-    width: 300px;
-    height: 40px;
+    width: 370px;
+    height: 50px;
     transform: skewX(-15deg);
 }
 
+.button-login{
+    background-color: var(--bg-orange);
+}
+
 .box-platforms{
-    /* height: 60px;
-    width: 300px; */
-    margin-top: 20rem;
-    padding: 10px;
+    width: 400px;
+    margin-top: 15rem;
+    padding: 25px 10px;
     border: 1px solid rgb(233, 233, 233);
     background-color: rgb(238, 240, 241);
 }
 
+.colors-bg{
+    width: 90%;
+    position: relative;
+}
+
+.bg-orange{
+    width: 1260px;
+    height: 100%;
+    position: absolute;
+    display: inline-block;
+    background-color: var(--bg-orange);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+
+    right: 0px;
+}
+
+
+.bg-black{
+    width: 1100px;
+    position: absolute;
+    clip-path: polygon(15% 0%, 100% 0%, 88% 100%, 0% 100%); 
+    filter: brightness(10%);
+    z-index: 1  ;
+}
+
+.bg-black>img{
+    height: 100vh;
+}
+
+.trace{
+    position: absolute;
+    z-index: 3;
+    margin: auto;
+    left: 25%;
+}
+
+.logo-gray{
+    position: absolute;
+    z-index: 2;
+    width: 500px;
+    left: 50%;
+    opacity: 20%;
+}
+
+.arrows{
+    position: absolute;
+    right: 3%;
+    width: 170px;
+    margin-top: 4rem;
+    opacity: 35%;
+    z-index: 3;
+}
+
+.circlee{
+    position: absolute;
+        bottom: -300px;
+        right: -820px;
+        transform: translate(-50%, -50%);
+        height: 600px;
+        width: 700px;
+        border-radius: 50% 50% 0% 50%;
+        border: 1px solid #ffffff;
+        z-index: 3;
+}
 
