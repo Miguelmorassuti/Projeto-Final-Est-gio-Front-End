@@ -5,45 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="../styles/pag02.css">
     <title>Document</title>
 </head>
 <body>
-    <main>
-        <section>
-            <nav class="navbar" role="navigation" aria-label="main navigation">
+    <main class="is-flex is-flex-direction-row">
+        <section class="is-flex is-flex-direction-column section1">
+            <nav class="navbar is-align-self-flex-end mt-6" role="navigation" aria-label="main navigation">
                 <div class="navbar-brand">
-                  <a  href="#">
-                    <img src="../images/logo.png" width="50">
+                  <a  href="../pages/pag01.html">
+                    <img class="mr-2" src="../images/logo.png" width="65px">
                   </a>      
                 </div>
               
                 <div class="navbar-menu">
-                  <div class="navbar-start">
-                    <a href="#" class="navbar-item">INÍCIO</a>
-                    <a href="#" class="navbar-item">HERÓIS</a>
-                    <a href="#" class="navbar-item">NEWS</a>
-                    <a href="#" class="navbar-item">SPORTS</a>
+                  <div class="navbar-start is-size-4 navbar-topp ">
+                    <a href="#" class="navbar-item item-nav">INÍCIO</a>
+                    <a href="#" class="navbar-item item-nav">HERÓIS</a>
+                    <a href="#" class="navbar-item item-nav">NEWS</a>
+                    <a href="#" class="navbar-item item-nav">SPORTS</a>
                    </div>     
                 </div>
             </nav>
 
-            <div class="is-flex is-flex-direction-column">
-                <a href="">JOGAR</a>
-                <a href="">RANQUEADA</a>
-                <a href="">PASSE</a>
-                <a href="">MISSÕES</a>
+            <div class="is-flex is-flex-direction-column is-size-1 navbar-m is-italic ml-6">
+                <a class="has-text-black has-text-weight-bold my-1" href="">JOGAR</a>
+                <a class="has-text-black has-text-weight-bold my-1" href="">RANQUEADA</a>
+                <a class="has-text-black has-text-weight-bold my-1" href="">PASSE</a>
+                <a class="has-text-black has-text-weight-bold my-1" href="">MISSÕES</a>
             </div>
 
-            <img src="../images/logo-gray.png" alt="logo overwatch">
+            <img class="logo-gray is-align-self-center" src="../images/logo-gray.png" alt="logo overwatch">
 
         </section>
 
-        <!-- <section>
-            <div>
-                <h1>HERÓIS</h1>
-                <img src="" alt="">
+        <section class="section2">
+            <div class="bg-orange">
+                <h1 class="title-down is-size-1">HERÓIS</h1>
             </div>
-        </section> -->
+
+            <div class="bg-gradient">
+                <div class="circle-gradient01"></div>
+                <div class="circle-gradient02"></div>
+                <div class="circle-gradient03"></div>
+            </div>          
+        </section>
+
+        <div class="bar-top">
+            <div class="cube-trace"><img src="../images/trace3x4.png" alt="trace" class="trace-3x4"></div>
+            <div class="rectangle"></div>
+            <div class="cube1"></div>
+            <div class="cube2"></div>
+        </div>
     </main>
 </body>
 </html>

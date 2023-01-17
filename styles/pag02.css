@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+:root {
+    --bg-orange: #FA9C1F;
+  
+}
+
+*{
+   font-family: 'Audiowide', cursive;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.section1{
+    width: 40%;
+    height: 90vh;
+}
+
+.logo-gray{
+    width: 40%;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    opacity: 70%;
+}
+
+.navbar-m{
+    position: absolute;
+    top: 35%;
+    z-index: 1;
+}
+
+.item-nav{
+    color: black;
+    padding: 5px 20px;
+}
+
+.item-nav:hover{
+    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%);
+    border-radius: 3%;
+    color: white !important;
+    background-color: rgb(222, 62, 62) !important;
+    
+}
+
+.section2{
+    width: 80%;
+    height: 100vh;
+    position: relative;
+}
+
+.bg-orange{
+    background-color: #FA9C1F;
+    clip-path: polygon(63% 0, 100% 0, 100% 100%, 27% 100%);
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    left: 49%;
+    z-index: 1;
+}
+
+.bg-gradient{
+     background-color: rgb(26, 0, 36);
+    clip-path: polygon(18% 0%, 100% 0%, 63% 100%, 0% 100%);
+    height: 100%;
+    width: 70rem;
+    left: 6%;
+    top: 0;
+    position: relative;
+}
+
+.circle-gradient01{
+    position: relative;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(27,0,122,1) 5%, rgba(26,0,36,1) 70%);
+    top: 1%;
+    left: 25%;
+    width: 300px;
+    height: 300px;
+}
+
+.circle-gradient02{
+    position: relative;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(27,0,122,1) 5%, rgba(26,0,36,1) 70%);
+    top: 12%;
+    left: 30%;
+    width: 300px;
+    height: 300px;
+}
+
+.circle-gradient03{
+    position: relative;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(27,0,122,1) 5%, rgba(26,0,36,1) 70%);
+    top: 8%;
+    left: 5%;
+    width: 300px;
+    height: 300px;
+}
+
+.title-down{
+    color: white;
+    position: absolute;
+    z-index: 2;
+    right: 0px;
+    transform: rotate(270deg);
+    top: 60%;
+}
+
+.bar-top{
+    position: absolute;
+}
+
+.trace-3x4{
+    width: 100%;
+}
+
+
+
