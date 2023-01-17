@@ -113,11 +113,59 @@ body{
 
 .bar-top{
     position: absolute;
+    right: 5rem;
+    top: 3rem;
+    
+    
+}
+
+.curve{
+    transform: skewX(-10deg);
 }
 
 .trace-3x4{
     width: 100%;
 }
 
+.cube-trace{
+    width: 70px;
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 12px;
+}
 
+.rectangle{
+    width: 14rem;
+    height: 70px;
+    background-color: white;
+    border-radius: 10px 15px;
+    padding: 4px;
+}
+
+.cube1{
+    width: 70px;
+    background-color: white;
+    height: 70px;
+    border-radius: 10px 15px;
+}
+
+.cube2{
+    width: 70px;
+    background-color: rgb(47, 190, 226);
+    height: 70px;
+    border-radius: 10px 15px;
+}
+
+.heroes{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    z-index: 3;
+}
+
+.arrow{
+    clip-path: polygon(80% 50%, 0 0, 0 100%);
+    height: 10px;
+    width: 5px;
+    background-color:red
+}
 
