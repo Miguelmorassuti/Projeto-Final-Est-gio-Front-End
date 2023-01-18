@@ -20,16 +20,21 @@ body{
 }
 
 .logo-gray{
-    width: 40%;
+    width: 35%;
     position: absolute;
     top: 20%;
     left: 2%;
     opacity: 70%;
 }
 
+.barnav{
+    position: relative;
+    left: 25%;
+}
+
 .navbar-m{
     position: absolute;
-    top: 35%;
+    top: 30%;
     z-index: 1;
 }
 
@@ -46,6 +51,25 @@ body{
     
 }
 
+.item-nav:focus{
+    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%);
+    border-radius: 3%;
+    color: white !important;
+    background-color: rgb(222, 62, 62) !important;
+    
+}
+
+.selector{
+    width: 60px;
+    height: 60px;
+    background-color: var(--bg-orange);
+    position: relative;
+    transform: rotate(45deg);
+    top: 20%;
+    left: -6%;
+    border-radius: 15px;
+}
+
 .section2{
     width: 80%;
     height: 100vh;
@@ -53,7 +77,7 @@ body{
 }
 
 .bg-orange{
-    background-color: #FA9C1F;
+    background-color: var(--bg-orange);
     clip-path: polygon(63% 0, 100% 0, 100% 100%, 27% 100%);
     position: absolute;
     height: 100%;
@@ -64,12 +88,34 @@ body{
 
 .bg-gradient{
      background-color: rgb(26, 0, 36);
-    clip-path: polygon(18% 0%, 100% 0%, 63% 100%, 0% 100%);
+    clip-path: polygon(18% 0%, 100% 0%, 83% 100%, 3% 100%);
     height: 100%;
-    width: 70rem;
-    left: 6%;
+    width: 100rem;
+    left: -6rem;
     top: 0;
-    position: relative;
+    position: absolute;
+    overflow: hidden;
+}
+
+.scrath-1{
+    height: 43vh;
+    position: absolute;
+    border-left: solid 1rem rgb(108, 0, 117);
+    border-radius:  0px 0px 12px 12px;
+    z-index: 5;
+    top: 0;
+    left: 15.88rem;
+    transform: skewX(-14deg); 
+}
+
+.scrath-2{
+    height: 58vh;
+    position: absolute;
+    border-left: solid 0.5rem rgb(108, 0, 117);
+    z-index: 5;
+    bottom: 0;
+    left: 8.55rem;
+    transform: skewX(-14deg); 
 }
 
 .circle-gradient01{
@@ -96,7 +142,7 @@ body{
     position: relative;
     border-radius: 50%;
     background: radial-gradient(circle, rgba(27,0,122,1) 5%, rgba(26,0,36,1) 70%);
-    top: 8%;
+    top: 20%;
     left: 5%;
     width: 300px;
     height: 300px;
@@ -106,17 +152,33 @@ body{
     color: white;
     position: absolute;
     z-index: 2;
-    right: 0px;
+    right: -2%;
     transform: rotate(270deg);
-    top: 60%;
+    top: 40%;
 }
+
+.heroes-name{
+    font-size: 5rem;
+}
+
+
+.arrow-black{
+    width: 20%;
+    position: absolute;
+    z-index: 5;
+    right: 15%;
+    bottom: 28%;
+    filter: brightness(0%);
+    transform: rotate(180deg);
+}
+
 
 .bar-top{
     position: absolute;
-    right: 5rem;
+    right: 12%;
     top: 3rem;
-    
-    
+    z-index: 2;
+      
 }
 
 .curve{
@@ -129,37 +191,37 @@ body{
 
 .cube-trace{
     width: 70px;
-    border: 4px solid rgb(255, 255, 255);
-    border-radius: 12px;
+    border: 6px solid rgb(255, 255, 255);
+    border-radius: 10px;
 }
 
 .rectangle{
     width: 14rem;
-    height: 70px;
+    height: 75px;
     background-color: white;
     border-radius: 10px 15px;
-    padding: 4px;
 }
 
 .cube1{
-    width: 70px;
+    width: 75px;
     background-color: white;
-    height: 70px;
+    height: 75px;
     border-radius: 10px 15px;
 }
 
 .cube2{
-    width: 70px;
+    width: 75px;
     background-color: rgb(47, 190, 226);
-    height: 70px;
+    height: 75px;
     border-radius: 10px 15px;
 }
 
 .heroes{
     position: absolute;
-    left: 50%;
+    left: 43%;
     top: 20%;
     z-index: 3;
+    width: 40%;
 }
 
 .arrow{
@@ -168,4 +230,5 @@ body{
     width: 5px;
     background-color:red
 }
+
 
