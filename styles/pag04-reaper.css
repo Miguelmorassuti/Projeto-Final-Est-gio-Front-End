@@ -26,6 +26,12 @@ body{
     left: 25%;
 }
 
+@media screen and (max-width: 1730px){
+	.barnav{
+        left: 20%;
+    }
+}
+
 
 .item-nav{
     color: black;
@@ -266,4 +272,21 @@ body{
     width: 150px;
     height: 160px;
     border-radius: 10px;
+}
+
+@media screen and (max-height: 815px){
+	.image-reaper{
+        width: 130px;
+        height: 140px;
+    }
+} 
+
+.reaper-box-habilty{
+    margin-top: 55px;
+}
+
+@media screen and (max-height: 950px){
+	.reaper-box-habilty{
+        margin-top: 10px;
+    }
 }

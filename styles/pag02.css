@@ -32,6 +32,12 @@ body{
     left: 25%;
 }
 
+@media screen and (max-width: 1730px){
+	.barnav{
+        left: 20%;
+    }
+}
+
 .navbar-m{
     position: absolute;
     top: 30%;
@@ -47,8 +53,7 @@ body{
     clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%);
     border-radius: 3%;
     color: white !important;
-    background-color: rgb(222, 62, 62) !important;
-    
+    background-color: rgb(222, 62, 62) !important; 
 }
 
 .item-nav:focus{
@@ -97,25 +102,43 @@ body{
     overflow: hidden;
 }
 
+.scrath{
+    position: absolute;
+    transform: skewX(-14deg);
+}
+
+@media screen and (max-height: 950px){
+    .scrath{
+        transform: skewX(-14.5deg);
+    }
+}
+
+@media screen and (max-height: 900px){
+    .scrath{
+        transform: skewX(-14.5deg);
+    }
+}
+
+@media screen and (max-height: 780px){
+    .scrath{
+        transform: skewX(-17.5deg);
+    }
+}
+
+
 .scrath-1{
     height: 43vh;
-    position: absolute;
     border-left: solid 1rem rgb(108, 0, 117);
     border-radius:  0px 0px 12px 12px;
-    z-index: 5;
     top: 0;
     left: 15.88rem;
-    transform: skewX(-14deg); 
 }
 
 .scrath-2{
     height: 58vh;
-    position: absolute;
-    border-left: solid 0.5rem rgb(108, 0, 117);
-    z-index: 5;
+    border-left: solid 0.5rem rgb(108,0,117);  
     bottom: 0;
-    left: 8.55rem;
-    transform: skewX(-14deg); 
+    left: 8.55rem; 
 }
 
 .circle-gradient01{
@@ -149,36 +172,32 @@ body{
 }
 
 .title-down{
-    color: white;
-    position: absolute;
-    z-index: 2;
-    right: -2%;
-    transform: rotate(270deg);
-    top: 40%;
-}
-
-.heroes-name{
-    font-size: 5rem;
-}
-
-
-.arrow-black{
-    width: 20%;
-    position: absolute;
-    z-index: 5;
-    right: 15%;
-    bottom: 28%;
-    filter: brightness(0%);
     transform: rotate(180deg);
 }
 
+.arrow-black{
+    transform: rotate(90deg);
+    filter: brightness(0%);
+    width: 60%;
+    height: 45%;
+}
+
+.container-dropdown{
+    position: absolute;
+    z-index: 4;
+    right: 1%;
+    bottom: 40%;
+    transform: rotate(90deg);
+    width: 300px;
+    height: 100px;
+    font-size: 5rem;
+}
 
 .bar-top{
     position: absolute;
     right: 12%;
     top: 3rem;
     z-index: 2;
-      
 }
 
 .curve{
@@ -200,6 +219,12 @@ body{
     height: 75px;
     background-color: white;
     border-radius: 10px 15px;
+}
+
+@media screen and (max-width: 1425px){
+	.rectangle{
+        width: 12rem;;
+    }
 }
 
 .cube1{
@@ -230,5 +255,7 @@ body{
     width: 5px;
     background-color:red
 }
+
+/* CHECKPOINT :) */
 
 
