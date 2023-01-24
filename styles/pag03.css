@@ -240,29 +240,8 @@ body{
     border: 1px solid rgb(175, 172, 172);
 }
 
-.bar-intern-1{
+.bar-intern{
     width: 75%;
-    height: 70px;
-    background-color: #FA9C1F;
-    border-radius: 35px 35px    ;
-}
-
-.bar-intern-2{
-    width: 35%;
-    height: 70px;
-    background-color: #FA9C1F;
-    border-radius: 35px 35px    ;
-}
-
-.bar-intern-3{
-    width: 45%;
-    height: 70px;
-    background-color: #FA9C1F;
-    border-radius: 35px 35px    ;
-}
-
-.bar-intern-4{
-    width: 85%;
     height: 70px;
     background-color: #FA9C1F;
     border-radius: 35px 35px    ;
@@ -288,6 +267,62 @@ body{
 @media screen and (max-height: 950px){
 	.tracer-box-habilty{
         margin-top: 10px;
+    }
+}
+
+.animation-load-1{
+    animation: load-1 2s forwards cubic-bezier(0,0,0,0);
+}
+
+@keyframes load-1{
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width:70%;
+    }
+}
+
+.animation-load-2{
+    animation: load-2 2s forwards cubic-bezier(0,0,0,0);
+}
+
+@keyframes load-2{
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 35%;
+    }
+}
+
+.animation-load-3{
+    animation: load-3 2s forwards cubic-bezier(0,0,0,0);
+}
+
+@keyframes load-3{
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 45%;
+    }
+}
+
+.animation-load-4{
+    animation: load-4 2s forwards cubic-bezier(0,0,0,0);
+}
+
+@keyframes load-4{
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 85%;
     }
 }
 
